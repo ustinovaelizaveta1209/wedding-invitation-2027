@@ -1,40 +1,94 @@
-<!doctype html>
-<html lang="ru">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Свадебное приглашение Ильи и Елизаветы" />
-  <title>Илья & Елизавета — 13 марта 2027</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Allura&family=Source+Serif+4:wght@300;400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <main class="invite">
-    <section class="intro paper-section">
-      <img class="ornament intro-left" src="ornament-03.png" alt="" /><img class="ornament intro-right" src="ornament-02.png" alt="" />
-      <p class="script date">13 <span>·</span> 03 <span>·</span> 27</p><p class="caps marrying">мы женимся!</p>
-      <figure class="couple"><img src="couple.png" alt="Илья и Елизавета" /></figure>
-      <h1>Илья <em>&amp;</em> Елизавета</h1>
-      <div class="intro-copy"><h2>Родные наши!</h2><p>Близкие люди — это главная ценность в жизни, и мы не представляем день нашей свадьбы без вас. Приглашаем разделить с нами этот тёплый праздник любви.</p></div>
-      <div class="calendar"><p>март <span>2027</span></p><div><i>9</i><i>10</i><i>11</i><i>12</i><b>13</b><i>14</i><i>15</i></div></div>
-    </section>
-    <section class="event lemon"><img class="event-lemon" src="ornament-04.png" alt="" /><div><p class="script">Праздничный ужин</p><h2>13 марта 2027</h2><p>Отель «Вега»<br />зал «Вега Малая»</p><p class="address">Москва, Измайловское шоссе, 71, корпус 3В</p><a class="button" target="_blank" rel="noreferrer" href="https://yandex.ru/maps/org/vega_izmaylovo/1002445907/?indoorLevel=1&ll=37.747056%2C55.790489&z=16.85">Построить маршрут</a></div></section>
-    <section class="program paper-section"><img class="lemons" src="ornament-07.png" alt="" /><img class="doodle doodle-top" src="ornament-09.png" alt="" /><img class="doodle doodle-bottom" src="ornament-12.png" alt="" /><h2>Программа</h2><p class="subtitle">Будем рады разделить с вами этот день</p><div class="timeline"><article><time>15:00</time><p>Сбор гостей и фуршет</p></article><article><time>16:00</time><p>Начало банкета</p></article><article><time>21:00</time><p>Торт</p></article><article><time>23:00</time><p>Завершение вечера</p></article></div></section>
-    <section class="dress paper-section"><img class="grapes" src="ornament-10.png" alt="" /><p class="script">Мы будем рады</p><h2>видеть вас в нарядных образах</h2><p>Строгого дресс-кода нет. Будем рады увидеть гостей в вечерних или деловых костюмах и платьях — выбирайте образ, в котором вам красиво и комфортно.</p><div class="hearts"><span>♥</span><span>♥</span><span>♥</span><span>♥</span><span>♥</span></div></section>
-    <section class="wish lemon"><img class="wish-heart" src="ornament-08.png" alt="" /><div><h2>Вместо цветов</h2><p>Пожалуйста, не дарите нам цветы. Ваше присутствие, добрые слова и объятия станут для нас самым ценным подарком.</p><p class="script">Ваши Илья и Елизавета</p></div></section>
-    <section class="rsvp paper-section"><div class="rsvp-card"><h2>Анкета</h2><p>Ваша обратная связь очень поможет нам в организации вечера. Будем с нетерпением ждать ответа!</p>
-      <form action="https://docs.google.com/forms/d/e/1FAIpQLScFgZDu-gLJVwz_C3Q_agdb-VRLmmEiTR0ivHxNM1XKRVUoRw/formResponse" method="post" target="google-form-submit" onsubmit="document.getElementById('sent').hidden=false">
-        <label>Планируете ли вы присутствовать?<b>*</b><span class="choices"><span><input name="entry.99530885" type="radio" value="Да, с удовольствием приду" required /> Да, с удовольствием приду</span><span><input name="entry.99530885" type="radio" value="К сожалению, не смогу" /> К сожалению, не смогу</span></span></label>
-        <label>Ваши имя и фамилия<b>*</b><input name="entry.1172682598" required /></label>
-        <fieldset><legend>Какие напитки вы предпочитаете?<small>Можно выбрать несколько вариантов</small></legend><div class="drinks"><label><input name="entry.2027775139" type="checkbox" value="Вино красное" /> Вино красное</label><label><input name="entry.2027775139" type="checkbox" value="Вино белое" /> Вино белое</label><label><input name="entry.2027775139" type="checkbox" value="Пиво" /> Пиво</label><label><input name="entry.2027775139" type="checkbox" value="Не пью алкоголь" /> Не пью алкоголь</label><label><input name="entry.2027775139" type="checkbox" value="Шампанское" /> Шампанское</label><label><input name="entry.2027775139" type="checkbox" value="Виски" /> Виски</label></div></fieldset>
-        <label>Комментарий или пожелание<textarea name="entry.1607820117" rows="3"></textarea></label><button class="button" type="submit">Отправить</button>
-      </form><p id="sent" class="success" hidden>Спасибо! Ответ отправлен.</p><small>После отправки ответ автоматически появится в нашей таблице.</small></div><iframe name="google-form-submit" title="Отправка анкеты" class="hidden-frame"></iframe></section>
-    <section class="comfort paper-section"><h2>Про комфорт</h2><p>В банкетном зале предусмотрен гардероб. Для вашего удобства вы можете взять с собой сменную обувь и переобуться на месте.</p></section>
-    <section class="contacts paper-section"><p class="flourish">❧</p><h2>Контакты</h2><p>Если остались вопросы и пожелания, которые нельзя оставить в анкете, обязательно напишите нам. Подробную карту проезда отправим ближе к дате свадьбы.</p></section>
-    <section class="closing paper-section"><h2>С нетерпением ждём</h2><div class="countdown"><strong id="timer">00 : 00 : 00 : 00</strong><span>дней      часов      мин      сек</span></div><img src="closing-lemon.png" class="closing-lemon" alt="" /></section>
-  </main>
-  <script>const d=new Date('2027-03-13T15:00:00+03:00'),el=document.getElementById('timer');function t(){const n=Math.max(0,d-Date.now()),p=[Math.floor(n/864e5),Math.floor(n/36e5)%24,Math.floor(n/6e4)%60,Math.floor(n/1e3)%60].map(x=>String(x).padStart(2,'0'));el.textContent=p.join(' : ')}t();setInterval(t,1000);</script>
-</body>
-</html>
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Свадебное приглашение Ильи и Елизаветы — 13 марта 2027"><title>Илья &amp; Елизавета — 13 марта 2027</title><link rel="stylesheet" href="fonts.css"><link rel="stylesheet" href="styles.css"></head><body><main>
+<section class="section intro" data-node-id="13:7" aria-label="intro" style="height:947px"><div class="canvas">
+<div class="date" style="left:481.5px;top:0px;width:313.453px;height:90px" ><span>13</span><i></i><span>03</span><i></i><span>27</span></div>
+<p class="text marrying caps" style="left:449.5px;top:87px;width:366px;height:43px" data-font-size="36"><span class="copy">мы женимся!</span></p>
+<figure class="photo" style="left:505.48px;top:144.79px;width:267px;height:346px" ><div class="photo-crop"><img src="imgTelegramCloudPhotoSize25350675497676906069Y1.png" alt="Илья и Елизавета"></div></figure>
+<h1 class="text groom caps" style="left:501.5px;top:504px;width:150.883px;height:45px" data-font-size="46"><span class="copy">Илья</span></h1>
+<p class="text ampersand" style="left:570.5px;top:548px;width:17.961px;height:25px" data-font-size="27"><span class="copy">&amp;</span></p>
+<p class="text bride caps" style="left:588.5px;top:554px;width:168.781px;height:45px" data-font-size="46"><span class="copy">елизавета</span></p>
+<h2 class="text dear caps" style="left:470.5px;top:640px;width:324px;height:30px" data-font-size="25"><span class="copy">Родные наши!</span></h2>
+<p class="text intro-copy" style="left:470.5px;top:683px;width:324px;height:68px" data-font-size="14"><span class="copy">Близкие люди — это главная ценность в жизни, и мы не представляем день нашей свадьбы без вас. Приглашаем вас на уютный праздник нашей любви. С нетерпением ждем встречи!</span></p>
+<p class="text month caps" style="left:488.5px;top:806px;width:289px;height:36px" data-font-size="30"><span class="copy">март <span class="script">2027</span></span></p>
+<div class="calendar" style="left:481.5px;top:859px;width:303.742px;height:38px" ><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span></div>
+<div class="art" style="left:629px;top:828px;width:96px;height:90.984px" data-node-id="13:124"><img src="imgImage.png" width="96" height="90.984" alt="" style=""></div>
+<div class="art" style="left:735.5px;top:430px;width:99px;height:99px" data-node-id="13:128"><img src="imgImage1.png" width="99" height="99" alt="" style=""></div>
+<div class="art" style="left:425.5px;top:130px;width:99px;height:100.672px" data-node-id="13:132"><img src="imgImage2.png" width="99" height="100.672" alt="" style=""></div>
+</div></section>
+<section class="section event" data-node-id="13:133" aria-label="event" style="height:674px"><div class="canvas">
+<h2 class="text dinner caps" style="left:447.5px;top:65px;width:366px;height:86px" data-font-size="36"><span class="copy">праздничный<br>ужин</span></h2>
+<p class="text venue" style="left:468.5px;top:170px;width:324px;height:23px" data-font-size="18"><span class="copy">Отель «Вега», банкетный зал «Вега малая»</span></p>
+<p class="text address" style="left:468.5px;top:201px;width:324px;height:18px" data-font-size="14"><span class="copy">Москва, Измайловское шоссе, 71, корпус 3В, этаж 2</span></p>
+<p class="text event-time script" style="left:450.5px;top:248px;width:366px;height:43px" data-font-size="36"><span class="copy">15:00</span></p>
+<a class="route button" style="left:460.5px;top:318px;width:340px;height:44px" href="https://yandex.ru/maps/org/vega_izmaylovo/1002445907/?indoorLevel=1&amp;ll=37.747056%2C55.790489&amp;z=16.85" target="_blank" rel="noopener">построить маршрут</a>
+<div class="art" style="left:510.5px;top:387px;width:244px;height:242.328px" data-node-id="13:175"><img src="imgImage3.png" width="244" height="242.328" alt="" style=""></div>
+<div class="art" style="left:390.5px;top:-34px;width:95px;height:99.164px" data-node-id="13:179"><img src="imgImage4.png" width="95" height="99.164" alt="" style=""></div>
+</div></section>
+<div class="gap" aria-hidden="true"></div>
+<section class="section program" data-node-id="13:184" aria-label="program" style="height:787px"><div class="canvas">
+<div class="art" style="left:387.5px;top:510px;width:490px;height:277px" data-node-id="13:190"><img src="imgImage5.png" width="490" height="277" alt="" style=""></div>
+<div class="art" style="left:370.5px;top:10px;width:92px;height:224.477px" data-node-id="13:194"><img src="imgImage6.png" width="92" height="224.477" alt="" style=""></div>
+<h2 class="text program-title caps" style="left:462.5px;top:0px;width:340px;height:53px" data-font-size="42"><span class="copy">Программа</span></h2>
+<h3 class="text arrival caps" style="left:472.5px;top:70px;width:319px;height:31px" data-font-size="25"><span class="copy"><span class="script">15:00</span> сбор гостей</span></h3>
+<p class="text arrival-copy" style="left:472.5px;top:106px;width:319px;height:36px" data-font-size="14"><span class="copy">Время пролетит незаметно за фуршетом и общением с другими гостями</span></p>
+<h3 class="text banquet caps" style="left:472.5px;top:226px;width:319px;height:62px" data-font-size="25"><span class="copy"><span class="script">15:30</span> Праздничный<br>банкет</span></h3>
+<p class="text banquet-copy" style="left:472.5px;top:293px;width:319px;height:36px" data-font-size="14"><span class="copy">Ужин в кругу любимых, тепло свечей<br>и сердец</span></p>
+<h3 class="text finish caps" style="left:472.5px;top:413px;width:319px;height:62px" data-font-size="25"><span class="copy"><span class="script">23:00</span> Окончание<br>праздничного дня</span></h3>
+<p class="text finish-copy" style="left:472.5px;top:480px;width:319px;height:36px" data-font-size="14"><span class="copy">Счастье в каждом мгновении. Даже такой день может когда-то подойти к концу</span></p>
+<div class="art" style="left:606px;top:158px;width:52px;height:52px" data-node-id="13:216"><img src="imgImage7.png" width="52" height="52" alt="" style="border-radius:20px"></div>
+<div class="art" style="left:606px;top:345px;width:52px;height:52px" data-node-id="13:232"><img src="imgImage7.png" width="52" height="52" alt="" style="border-radius:20px"></div>
+<div class="art" style="left:401.5px;top:364px;width:86px;height:96.852px" data-node-id="13:249"><img src="imgImage8.png" width="86" height="96.852" alt="" style=""></div>
+<div class="art" style="left:725.49px;top:157.05px;width:196px;height:323px" data-node-id="13:253"><img src="imgImage9.png" width="196" height="323" alt="" style="transform:rotate(12deg)"></div>
+</div></section>
+<div class="gap" aria-hidden="true"></div>
+<section class="section dress" data-node-id="13:258" aria-label="dress" style="height:483px"><div class="canvas">
+<h2 class="text dress-title caps" style="left:461.5px;top:0px;width:341px;height:53px" data-font-size="35"><span class="copy">Дресс-код</span></h2>
+<p class="text dress-copy" style="left:461.5px;top:56px;width:341px;height:54px" data-font-size="13"><span class="copy">Строгого дресс-кода нет, будьте собой! Мы будем рады увидеть вас в вечерних или деловых костюмах и платьях — выбирайте образ, в котором вам красиво и комфортно.<br>​</span></p>
+<div class="art" style="left:471.5px;top:129px;width:66px;height:66px" data-node-id="13:278"><img src="imgImage10.png" width="66" height="66" alt="" style=""></div>
+<div class="art" style="left:468.5px;top:195px;width:72px;height:72px" data-node-id="13:282"><img src="imgImage11.png" width="72" height="72" alt="" style=""></div>
+<div class="art" style="left:468.5px;top:267px;width:72px;height:72px" data-node-id="13:286"><img src="imgImage12.png" width="72" height="72" alt="" style=""></div>
+<div class="art" style="left:468.5px;top:339px;width:72px;height:72px" data-node-id="13:290"><img src="imgImage13.png" width="72" height="72" alt="" style=""></div>
+<div class="art" style="left:468.5px;top:411px;width:72px;height:72px" data-node-id="13:294"><img src="imgImage14.png" width="72" height="72" alt="" style=""></div>
+<div class="art" style="left:560.5px;top:137px;width:236px;height:332px" data-node-id="13:297"><img src="imgImage15.png" width="236" height="332" alt="" style=""></div>
+</div></section>
+<div class="gap" aria-hidden="true"></div>
+<section class="section gift" data-node-id="13:303" aria-label="gift" style="height:243px"><div class="canvas">
+<h2 class="text gift-title caps" style="left:462px;top:21px;width:341px;height:53px" data-font-size="35"><span class="copy">Ваше присутствие  — <br>самый важный подарок </span></h2>
+<p class="text gift-copy" style="left:462px;top:77px;width:341px;height:72px" data-font-size="13"><span class="copy">Вместо цветов будем благодарны за подарок в конверте: он станет вкладом в наши первые семейные планы.</span></p>
+<div class="art" style="left:514.5px;top:137px;width:236px;height:106px" data-node-id="13:323"><img src="imgImage16.png" width="236" height="106" alt="" style=""></div>
+</div></section>
+<div class="gap" aria-hidden="true"></div>
+<section class="section deadline" data-node-id="13:329" aria-label="deadline" style="height:296px"><div class="canvas">
+<div class="art" style="left:462.5px;top:0px;width:340px;height:296px" data-node-id="13:334"><img src="imgImage17.png" width="340" height="296" alt="" style="border-radius:20px"></div>
+<p class="text deadline-copy" style="left:497.5px;top:102px;width:270px;height:36px" data-font-size="14"><span class="copy">Пожалуйста, подтвердите своё присутствие до </span></p>
+<p class="text deadline-date" style="left:497.5px;top:143px;width:270px;height:30px" data-font-size="25"><span class="copy"><span class="script">13</span> декабря</span></p>
+</div></section>
+<div class="gap" aria-hidden="true"></div>
+<section class="section rsvp" data-node-id="13:352" aria-label="rsvp" style="height:866px"><div class="canvas">
+<div class="oval" style="left:453px;top:0px;width:360px;height:726px" ></div>
+<h2 class="text rsvp-title caps" style="left:500.5px;top:50px;width:264px;height:55px" data-font-size="35"><span class="copy">Анкета</span></h2>
+<p class="text rsvp-copy" style="left:500.5px;top:106px;width:264px;height:76px" data-font-size="14"><span class="copy">Ваша обратная связь очень поможет нам в организации вечера — будем с нетерпением ждать ответа</span></p>
+<form class="guest-form" style="left:472.5px;top:190px;width:320px;height:580px" action="https://docs.google.com/forms/d/e/1FAIpQLScFgZDu-gLJVwz_C3Q_agdb-VRLmmEiTR0ivHxNM1XKRVUoRw/formResponse" method="post" target="_blank"><label class="name"><span class="sr-only">Ваши имя и фамилия</span><input type="text" name="entry.1172682598" placeholder="Ваши имя и фамилия" autocomplete="name" required></label>
+<fieldset class="attendance"><legend>Планируете ли Вы присутствовать?</legend><div class="options"><label><input type="radio" name="entry.99530885" value="Да, с удовольствием приду" checked required>Да</label><label><input type="radio" name="entry.99530885" value="К сожалению, не смогу">Нет</label></div></fieldset>
+<fieldset class="alcohol"><legend>Какой алкоголь вы предпочитаете?</legend><div class="options"><label><input type="checkbox" name="entry.2027775139" value="Вино красное">красное вино</label><label><input type="checkbox" name="entry.2027775139" value="Вино белое">белое вино</label><label><input type="checkbox" name="entry.2027775139" value="Шампанское">шампанское</label><label><input type="checkbox" name="entry.2027775139" value="Виски">виски</label><label><input type="checkbox" name="entry.2027775139" value="Пиво">пиво</label><label><input type="checkbox" name="entry.2027775139" value="Водка">водка</label></div></fieldset><label class="wishes"><span class="sr-only">Любые возможные пожелания</span><textarea name="entry.1607820117" placeholder="Любые возможные пожелания"></textarea></label><button class="button" type="submit">Отправить</button><p id="form-status" role="status" hidden></p></form>
+</div></section>
+<section class="section comfort" data-node-id="13:480" aria-label="comfort" style="height:226px"><div class="canvas">
+<h2 class="text comfort-title caps" style="left:462.5px;top:0px;width:341px;height:53px" data-font-size="35"><span class="copy">про Комфорт</span></h2>
+<div class="comfort-frame" style="left:461.5px;top:56px;width:341px;height:128px" ><p>В банкетном зале предусмотрен гардероб. Для вашего удобства вы можете взять с собой сменную обувь и переобуться на месте.</p></div>
+<div class="art" style="left:703.5px;top:133px;width:109px;height:92.508px" data-node-id="13:501"><img src="imgImage18.png" width="109" height="92.508" alt="" style=""></div>
+<div class="art" style="left:379.5px;top:5px;width:138px;height:138px" data-node-id="13:505"><img src="imgImage19.png" width="138" height="138" alt="" style=""></div>
+</div></section>
+<div class="gap" aria-hidden="true"></div>
+<section class="section contacts" data-node-id="13:510" aria-label="contacts" style="height:407px"><div class="canvas">
+<div class="art" style="left:556.5px;top:0px;width:153px;height:46px" data-node-id="13:515"><img src="imgImage20.png" width="153" height="46" alt="" style=""></div>
+<div class="art" style="left:556.5px;top:361px;width:153px;height:46px" data-node-id="13:526"><img src="imgImage21.png" width="153" height="46" alt="" style=""></div>
+<h2 class="text contacts-title caps" style="left:473.5px;top:65px;width:318px;height:55px" data-font-size="42"><span class="copy">контакты</span></h2>
+<p class="text contacts-copy" style="left:473.5px;top:125px;width:318px;height:108px" data-font-size="14"><span class="copy">Если остались вопросы и пожелания, которые нельзя здесь оставить, то обязательно пишите. Подробную карту проезда мы отправим ближе к дате свадьбы, чтобы никто не потерялся по пути.</span></p>
+<p class="text phone script" style="left:473.5px;top:243px;width:318px;height:21px" data-font-size="17"><span class="copy"><a href="tel:+79969771855">8 996 977 18 55</a></span></p>
+</div></section>
+<section class="section closing" data-node-id="13:549" aria-label="closing" style="height:521px"><div class="canvas">
+<h2 class="text closing-title" style="left:364.5px;top:43px;width:537.43px;height:49px" data-font-size="41"><span class="copy">С нетерпением ждём</span></h2>
+<p class="text countdown script" style="left:462.5px;top:110px;width:340px;height:71px" data-font-size="46"><span class="copy"><span id="timer" role="timer" aria-label="До свадьбы">00 : 00 : 00 : 00</span></span></p>
+<div class="count-labels" style="left:462.5px;top:181px;width:340px;height:26px" ><span>дней</span><span>часов</span><span>мин</span><span>сек</span></div>
+<div class="art" style="left:503.5px;top:207px;width:258px;height:262px" data-node-id="13:591"><img src="imgImage22.png" width="258" height="262" alt="" style=""></div>
+</div></section>
+</main><script src="invitation.js"></script></body></html>
